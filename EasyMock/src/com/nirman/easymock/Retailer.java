@@ -28,4 +28,8 @@ public class Retailer {
 	public int getTaxRate() {
 		return taxes_in_percent;
 	}
+	
+	public String myTaxRate() {
+		return "50%";
+	}
 }
